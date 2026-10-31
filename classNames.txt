@@ -1,4 +1,8 @@
 // Vanilla
+// Attachments
+acc_flashlight
+acc_flashlight_pistol
+//Ammo
 UGL_FlareCIR_F
 UGL_FlareWhite_F
 UGL_FlareWhite_Illumination_F
@@ -16,10 +20,11 @@ FlareWhite_Illumination_F
 FlareGreen_Illumination_F
 FlareRed_Illumination_F
 FlareYellow_Illumination_F
-acc_flashlight
-acc_flashlight_pistol
+8Rnd_82mm_Mo_Flare_white
+8Rnd_82mm_Mo_Flare_white_illumination
 
 // CUP
+// Attachments
 CUP_acc_CZ_M3X
 CUP_acc_Glock17_Flashlight
 CUP_acc_SF_XC1
@@ -43,6 +48,7 @@ CUP_acc_ANPEQ_15_Top_Flashlight_Tan_L
 CUP_acc_ANPEQ_2_Flashlight_Black_L
 CUP_acc_ANPEQ_2_Flashlight_Coyote_L
 CUP_acc_ANPEQ_2_Flashlight_OD_L
+//Ammo
 CUP_FlareWhite_265_M
 CUP_IllumFlareWhite_265_M
 CUP_IllumFlareGreen_265_M
@@ -51,11 +57,17 @@ CUP_IllumFlareYellow_265_M
 CUP_IllumFlareWhite_GP25_M
 CUP_IllumFlareGreen_GP25_M
 CUP_IllumFlareRed_GP25_M
+CUP_StarClusterWhite_265_M
+CUP_StarClusterRed_265_M
+CUP_StarClusterGreen_265_M
+CUP_StarClusterYellow_265_M
 CUP_6Rnd_FlareWhite_M203
 CUP_6Rnd_FlareWhite_GP25_M
 CUP_FlareWhite_M203
 CUP_1Rnd_StarFlare_White_M203
 CUP_FlareWhite_GP25_M
+CUP_30Rnd_105mmILLUM_M119_M
+CUP_30Rnd_122mmILLUM_D30_M
 
 // NIA
 hlc_acc_TLR1
@@ -67,45 +79,104 @@ hlc_acc_Surefiregrip
 HLC_Acc_Flashlight_PCAP
 
 // ACE
+// Weapon
 ACE_Flashlight_Maglite_ML300L
+// Throw
 ACE_HandFlare_White
+// Ammo
 ACE_40mm_Flare_white
 ACE_40mm_Flare_green
 ACE_40mm_Flare_red
 ACE_40mm_Flare_ir
+ACE_1Rnd_82mm_Mo_Illum
 
 // CDLCs //
 
 // VN
-vn_40mm_m583_flare_w_mag
-vn_m127_mag
+// Weapons
 vn_mx991_m1911
 vn_mx991
 vn_mx991_red
 vn_fkb1_pm
 vn_fkb1
 vn_fkb1_red
+// Ammo
+vn_40mm_m583_flare_w_mag
+vn_m127_mag
 vn_22mm_lume_mag
 
 // VNX
 vnx_37mm_flare_mag
 
 // SPE
-
+SPE_1Rnd_F_FLGR
+SPE_1Rnd_G_M17A1
+SPE_81mm_FA_Mle_1932_Illu
+SPE_8Rnd_81mm_FA_Mle_1932_Illu
 
 // SPEX
-
+SPEX_1Rnd_2_Inch_Flare
+SPEX_1Rnd_60mmIllu_M2_M83
+SPEX_8Rnd_60mmIllu_M2_M83
 
 // RF
-
+4Rnd_60mm_Mo_Flare_white_RF
+2Rnd_60mm_Mo_Flare_white_RF
 
 //EF
-
+EF_6Rnd_120mm_Mo_Flare_white
 
 // WS
+// Attachments
 saber_light_IxWS
 saber_light_arid_IxWS
 saber_light_khaki_IxWS
 saber_light_lush_IxWS
 saber_light_sand_IxWS
 saber_light_snake_IxWS
+// Ammo
+64Rnd_60mm_Mo_Flare_white_IxWS
+
+// GM
+//Attachments
+gm_flashlightp2_wht_ak74handguard_blu
+gm_flashlightp2_brk_ak74handguard_dino
+gm_flashlightp2_wht_akhandguard_blu
+gm_flashlightp2_brk_akhandguard_dino
+gm_flashlightp2_wht_akkhandguard_blu
+gm_flashlightp2_brk_akkhandguard_dino
+gm_surefire_l60_wht_bayonetg11_blk
+gm_maglite_2d_hkslim_blk
+gm_surefire_l60_wht_surefire_blk
+gm_surefire_l60_wht_hoseclamp_blk
+//Ammo
+gm_1Rnd_265mm_flare_single_wht_gc
+gm_1Rnd_265mm_flare_single_wht_DM15
+gm_1Rnd_265mm_flare_multi_wht_DM25
+gm_1Rnd_265mm_flare_multi_red_DM23
+gm_1Rnd_265mm_flare_multi_grn_DM21
+gm_1Rnd_265mm_flare_multi_yel_DM20
+gm_1rnd_40x46mm_illum_dm16
+gm_1Rnd_84x245mm_ILLUM_DM16_carlgustaf
+gm_1Rnd_120mm_illum_dm26
+gm_1Rnd_120mm_illum_s843
+gm_10Rnd_120mm_illum_dm26
+gm_20Rnd_120mm_illum_dm26
+gm_40Rnd_120mm_illum_dm26
+gm_10Rnd_120mm_illum_s843
+gm_20Rnd_120mm_illum_s843
+gm_40Rnd_120mm_illum_s843
+gm_1Rnd_155mm_illum_dm106
+gm_1Rnd_155mm_illum_m485
+gm_4Rnd_155mm_illum_dm106
+gm_4Rnd_155mm_illum_m485
+gm_10Rnd_155mm_illum_dm106
+gm_10Rnd_155mm_illum_m485
+gm_20Rnd_155mm_illum_dm106
+gm_20Rnd_155mm_illum_m485
+gm_1Rnd_122x447mm_illum_s463
+gm_3Rnd_122x447mm_illum_s463
+gm_9Rnd_122x447mm_illum_s463
+gm_28Rnd_122x447mm_illum_s463
+ace_compat_gm_1Rnd_120mm_illum_dm26
+ace_compat_gm_1Rnd_120mm_illum_s843
