@@ -1,0 +1,111 @@
+// Vanilla
+UGL_FlareCIR_F
+UGL_FlareWhite_F
+UGL_FlareWhite_Illumination_F
+UGL_FlareGreen_Illumination_F
+UGL_FlareRed_Illumination_F
+UGL_FlareYellow_Illumination_F
+3Rnd_UGL_FlareCIR_F
+3Rnd_UGL_FlareWhite_F
+3Rnd_UGL_FlareWhite_Illumination_F
+3Rnd_UGL_FlareGreen_Illumination_F
+3Rnd_UGL_FlareRed_Illumination_F
+3Rnd_UGL_FlareYellow_Illumination_F
+FlareWhite_F
+FlareWhite_Illumination_F
+FlareGreen_Illumination_F
+FlareRed_Illumination_F
+FlareYellow_Illumination_F
+acc_flashlight
+acc_flashlight_pistol
+
+// CUP
+CUP_acc_CZ_M3X
+CUP_acc_Glock17_Flashlight
+CUP_acc_SF_XC1
+CUP_acc_Zenit_2DS
+CUP_acc_XM8_light_module
+CUP_acc_LLM01_L
+CUP_acc_LLM01_coyote_L
+CUP_acc_LLM01_desert_L
+CUP_acc_LLM01_hex_L
+CUP_acc_LLM01_od_L
+CUP_acc_LLM
+CUP_acc_LLM_black
+CUP_acc_LLM_od
+CUP_acc_Flashlight
+CUP_acc_ANPEQ_15_Flashlight_Black_L
+CUP_acc_ANPEQ_15_Flashlight_OD_L
+CUP_acc_ANPEQ_15_Flashlight_Tan_L
+CUP_acc_ANPEQ_15_Top_Flashlight_Black_L
+CUP_acc_ANPEQ_15_Top_Flashlight_OD_L
+CUP_acc_ANPEQ_15_Top_Flashlight_Tan_L
+CUP_acc_ANPEQ_2_Flashlight_Black_L
+CUP_acc_ANPEQ_2_Flashlight_Coyote_L
+CUP_acc_ANPEQ_2_Flashlight_OD_L
+CUP_FlareWhite_265_M
+CUP_IllumFlareWhite_265_M
+CUP_IllumFlareGreen_265_M
+CUP_IllumFlareRed_265_M
+CUP_IllumFlareYellow_265_M
+CUP_IllumFlareWhite_GP25_M
+CUP_IllumFlareGreen_GP25_M
+CUP_IllumFlareRed_GP25_M
+CUP_6Rnd_FlareWhite_M203
+CUP_6Rnd_FlareWhite_GP25_M
+CUP_FlareWhite_M203
+CUP_1Rnd_StarFlare_White_M203
+CUP_FlareWhite_GP25_M
+
+// NIA
+hlc_acc_TLR1
+hlc_acc_TLR1_side
+hlc_acc_SF660
+hlc_acc_SF660_Barrel
+hlc_acc_SF660_Barrel_Pad
+hlc_acc_Surefiregrip
+HLC_Acc_Flashlight_PCAP
+
+// ACE
+ACE_Flashlight_Maglite_ML300L
+ACE_HandFlare_White
+ACE_40mm_Flare_white
+ACE_40mm_Flare_green
+ACE_40mm_Flare_red
+ACE_40mm_Flare_ir
+
+// CDLCs //
+
+// VN
+vn_40mm_m583_flare_w_mag
+vn_m127_mag
+vn_mx991_m1911
+vn_mx991
+vn_mx991_red
+vn_fkb1_pm
+vn_fkb1
+vn_fkb1_red
+vn_22mm_lume_mag
+
+// VNX
+vnx_37mm_flare_mag
+
+// SPE
+
+
+// SPEX
+
+
+// RF
+
+
+//EF
+
+
+// WS
+saber_light_IxWS
+saber_light_arid_IxWS
+saber_light_khaki_IxWS
+saber_light_lush_IxWS
+saber_light_sand_IxWS
+saber_light_snake_IxWS
