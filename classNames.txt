@@ -1,105 +1,115 @@
 // Vanilla
 // Attachments
-acc_flashlight
-acc_flashlight_pistol
+class acc_flashlight: ItemCore {};
+class acc_flashlight_pistol: ItemCore {};
+class acc_flashlight_smg_01: ItemCore {};
 //Ammo
-UGL_FlareCIR_F
-UGL_FlareWhite_F
-UGL_FlareWhite_Illumination_F
-UGL_FlareGreen_Illumination_F
-UGL_FlareRed_Illumination_F
-UGL_FlareYellow_Illumination_F
-3Rnd_UGL_FlareCIR_F
-3Rnd_UGL_FlareWhite_F
-3Rnd_UGL_FlareWhite_Illumination_F
-3Rnd_UGL_FlareGreen_Illumination_F
-3Rnd_UGL_FlareRed_Illumination_F
-3Rnd_UGL_FlareYellow_Illumination_F
-FlareWhite_F
-FlareWhite_Illumination_F
-FlareGreen_Illumination_F
-FlareRed_Illumination_F
-FlareYellow_Illumination_F
-8Rnd_82mm_Mo_Flare_white
-8Rnd_82mm_Mo_Flare_white_illumination
+class F_40mm_White: FlareBase {};
+class F_40mm_CIR: F_40mm_White {};
+class F_40mm_Green_Illumination: F_40mm_Green {};
+class F_40mm_Red_Illumination: F_40mm_Red {};
+class F_40mm_White_Illumination: F_40mm_White {};
+class F_40mm_Yellow_Illumination: F_40mm_Yellow {};
+class Flare_82mm_AMOS_White: FlareCore {};
+class Flare_82mm_AMOS_White_Illumination: Flare_82mm_AMOS_White {};
 
 // CUP
 // Attachments
-CUP_acc_CZ_M3X
-CUP_acc_Glock17_Flashlight
-CUP_acc_SF_XC1
-CUP_acc_Zenit_2DS
-CUP_acc_XM8_light_module
-CUP_acc_LLM01_L
-CUP_acc_LLM01_coyote_L
-CUP_acc_LLM01_desert_L
-CUP_acc_LLM01_hex_L
-CUP_acc_LLM01_od_L
-CUP_acc_LLM
-CUP_acc_LLM_black
-CUP_acc_LLM_od
-CUP_acc_Flashlight
-CUP_acc_ANPEQ_15_Flashlight_Black_L
-CUP_acc_ANPEQ_15_Flashlight_OD_L
-CUP_acc_ANPEQ_15_Flashlight_Tan_L
-CUP_acc_ANPEQ_15_Top_Flashlight_Black_L
-CUP_acc_ANPEQ_15_Top_Flashlight_OD_L
-CUP_acc_ANPEQ_15_Top_Flashlight_Tan_L
-CUP_acc_ANPEQ_2_Flashlight_Black_L
-CUP_acc_ANPEQ_2_Flashlight_Coyote_L
-CUP_acc_ANPEQ_2_Flashlight_OD_L
+class CUP_acc_CZ_M3X: CUP_acc_Flashlight {};
+class CUP_acc_Glock17_Flashlight: ItemCore {};
+class CUP_acc_mk23_lam_f: CUP_acc_Flashlight {};
+class CUP_acc_SF_XC1: ItemCore {};
+class CUP_acc_Zenit_2DS: ItemCore {};
+class CUP_acc_XM8_light_module: CUP_acc_Flashlight {};
+class CUP_acc_LLM01_F: ItemCore {};
+class CUP_acc_LLM01_coyote_F: CUP_acc_LLM01_F {};
+class CUP_acc_LLM01_desert_F: CUP_acc_LLM01_F {};
+class CUP_acc_LLM01_hex_F: CUP_acc_LLM01_F {};
+class CUP_acc_LLM01_od_F: CUP_acc_LLM01_F {};
+class CUP_acc_LLM_Flashlight: CUP_acc_LLM {};
+class CUP_acc_LLM_black_Flashlight: CUP_acc_LLM_Flashlight {};
+class CUP_acc_LLM_od_Flashlight: CUP_acc_LLM_Flashlight {};
+class CUP_acc_Flashlight: ItemCore {};
+class CUP_acc_Flashlight_desert: CUP_acc_Flashlight {};
+class CUP_acc_Flashlight_wdl: CUP_acc_Flashlight {};
+class CUP_acc_Flashlight_MP5: CUP_acc_Flashlight {};
+class CUP_acc_Flashlight_MP5SD: CUP_acc_Flashlight {};
+class CUP_acc_ANPEQ_15_Flashlight_Black_F: CUP_acc_ANPEQ_15_Flashlight_Black_L {};
+class CUP_acc_ANPEQ_15_Flashlight_OD_F: CUP_acc_ANPEQ_15_Flashlight_OD_L {};
+class CUP_acc_ANPEQ_15_Flashlight_Tan_F: CUP_acc_ANPEQ_15_Flashlight_Tan_L {};
+class CUP_acc_ANPEQ_15_Top_Flashlight_Black_F: CUP_acc_ANPEQ_15_Top_Flashlight_Black_L {};
+class CUP_acc_ANPEQ_15_Top_Flashlight_OD_F: CUP_acc_ANPEQ_15_Top_Flashlight_OD_L {};
+class CUP_acc_ANPEQ_15_Top_Flashlight_Tan_F: CUP_acc_ANPEQ_15_Top_Flashlight_Tan_L {};
+class CUP_acc_ANPEQ_2_Flashlight_Black_F: CUP_acc_ANPEQ_2_Flashlight_Black_L {};
+class CUP_acc_ANPEQ_2_Flashlight_Coyote_F: CUP_acc_ANPEQ_2_Flashlight_Coyote_L {};
+class CUP_acc_ANPEQ_2_Flashlight_OD_F: CUP_acc_ANPEQ_2_Flashlight_OD_L {};
 //Ammo
-CUP_FlareWhite_265_M
-CUP_IllumFlareWhite_265_M
-CUP_IllumFlareGreen_265_M
-CUP_IllumFlareRed_265_M
-CUP_IllumFlareYellow_265_M
-CUP_IllumFlareWhite_GP25_M
-CUP_IllumFlareGreen_GP25_M
-CUP_IllumFlareRed_GP25_M
-CUP_StarClusterWhite_265_M
-CUP_StarClusterRed_265_M
-CUP_StarClusterGreen_265_M
-CUP_StarClusterYellow_265_M
-CUP_6Rnd_FlareWhite_M203
-CUP_6Rnd_FlareWhite_GP25_M
-CUP_FlareWhite_M203
-CUP_1Rnd_StarFlare_White_M203
-CUP_FlareWhite_GP25_M
-CUP_30Rnd_105mmILLUM_M119_M
-CUP_30Rnd_122mmILLUM_D30_M
+class CUP_F_265mm_Star_Green: CUP_F_265mm_Star_White {};
+class CUP_F_265mm_Star_Red: CUP_F_265mm_Star_White {};
+class CUP_F_265mm_Star_White: F_40mm_White {};
+class CUP_F_265mm_Star_Yellow: CUP_F_265mm_Star_White {};
+class CUP_sub_F_265mm_StarCluster_Green: F_40mm_White {};
+class CUP_sub_F_265mm_StarCluster_Red: F_40mm_White {};
+class CUP_sub_F_265mm_StarCluster_White: F_40mm_White {};
+class CUP_sub_F_265mm_StarCluster_Yellow: F_40mm_White {};
+class CUP_F_40mm_Star_Red: CUP_F_40mm_Star_White {};
+class CUP_F_40mm_Star_Green: CUP_F_40mm_Star_White {};
+class CUP_F_40mm_Star_White: F_40mm_White {};
+class CUP_Sh_122_ILLUM: Flare_82mm_AMOS_White {};
+class CUP_Sh_105_ILLUM: Flare_82mm_AMOS_White {};
+// COMPATS
+class Sh_82mm_AMOS: Flare_82mm_AMOS_White {};
 
 // NIA
-hlc_acc_TLR1
-hlc_acc_TLR1_side
-hlc_acc_SF660
-hlc_acc_SF660_Barrel
-hlc_acc_SF660_Barrel_Pad
-hlc_acc_Surefiregrip
-HLC_Acc_Flashlight_PCAP
+class hlc_acc_TLR1: ItemCore {};
+class hlc_acc_TLR1_side: hlc_acc_TLR1 {};
+class hlc_acc_SF660: hlc_acc_SF660_Barrel {};
+class hlc_acc_SF660_Barrel: ItemCore {};
+class hlc_acc_SF660_Barrel_Pad: ItemCore {};
+class hlc_acc_Surefiregrip: ItemCore {};
+class HLC_Acc_Flashlight_PCAP: ItemCore {};
+class hlc_acc_DBALPL_FL: ItemCore {};
+class hlc_acc_DBALPL_side_FL: hlc_acc_DBALPL_FL {};
 
 // ACE
 // Weapon
-ACE_Flashlight_Maglite_ML300L
-// Throw
-ACE_HandFlare_White
+class ACE_Flashlight_Maglite_ML300L: Pistol_Base_F {};
 // Ammo
-ACE_40mm_Flare_white
-ACE_40mm_Flare_green
-ACE_40mm_Flare_red
-ACE_40mm_Flare_ir
-ACE_1Rnd_82mm_Mo_Illum
+class ACE_40mm_Flare_white: F_40mm_White {};
+class ACE_40mm_Flare_green: ACE_40mm_Flare_white {};
+class ACE_40mm_Flare_red: ACE_40mm_Flare_white {};
+class ACE_40mm_Flare_ir: ACE_40mm_Flare_white {};
+class ACE_G_HandFlare_White: SmokeShell {};
+class ACE_F_Hand_White: F_20mm_White {};
+
 
 // CDLCs //
 
+// RF
+class Flare_60mm_AMOS_White_RF: Flare_82mm_AMOS_White {};
+
+//EF
+class EF_Ammo_120mm_Flare_white: Flare_82mm_AMOS_White {};
+
+// WS
+// Attachments
+class saber_light_IxWS: acc_flashlight {};
+class saber_light_arid_IxWS: saber_light_IxWS {};
+class saber_light_khaki_IxWS: saber_light_IxWS {};
+class saber_light_lush_IxWS: saber_light_IxWS {};
+class saber_light_sand_IxWS: saber_light_IxWS {};
+class saber_light_snake_IxWS: saber_light_IxWS {};
+// Ammo
+class Flare_60mm_AMOS_White_IxWS: Flare_82mm_AMOS_White {};
+
 // VN
 // Weapons
-vn_mx991_m1911
-vn_mx991
-vn_mx991_red
-vn_fkb1_pm
-vn_fkb1
-vn_fkb1_red
+class vn_mx991_m1911
+class vn_mx991
+class vn_mx991_red
+class vn_fkb1_pm
+class vn_fkb1
+class vn_fkb1_red
 // Ammo
 vn_40mm_m583_flare_w_mag
 vn_m127_mag
@@ -119,36 +129,18 @@ SPEX_1Rnd_2_Inch_Flare
 SPEX_1Rnd_60mmIllu_M2_M83
 SPEX_8Rnd_60mmIllu_M2_M83
 
-// RF
-4Rnd_60mm_Mo_Flare_white_RF
-2Rnd_60mm_Mo_Flare_white_RF
-
-//EF
-EF_6Rnd_120mm_Mo_Flare_white
-
-// WS
-// Attachments
-saber_light_IxWS
-saber_light_arid_IxWS
-saber_light_khaki_IxWS
-saber_light_lush_IxWS
-saber_light_sand_IxWS
-saber_light_snake_IxWS
-// Ammo
-64Rnd_60mm_Mo_Flare_white_IxWS
-
 // GM
 //Attachments
-gm_flashlightp2_wht_ak74handguard_blu
-gm_flashlightp2_brk_ak74handguard_dino
-gm_flashlightp2_wht_akhandguard_blu
-gm_flashlightp2_brk_akhandguard_dino
-gm_flashlightp2_wht_akkhandguard_blu
-gm_flashlightp2_brk_akkhandguard_dino
-gm_surefire_l60_wht_bayonetg11_blk
-gm_maglite_2d_hkslim_blk
-gm_surefire_l60_wht_surefire_blk
-gm_surefire_l60_wht_hoseclamp_blk
+class gm_flashlightp2_wht_ak74handguard_blu
+class gm_flashlightp2_brk_ak74handguard_dino
+class gm_flashlightp2_wht_akhandguard_blu
+class gm_flashlightp2_brk_akhandguard_dino
+class gm_flashlightp2_wht_akkhandguard_blu
+class gm_flashlightp2_brk_akkhandguard_dino
+class gm_surefire_l60_wht_bayonetg11_blk
+class gm_maglite_2d_hkslim_blk
+class gm_surefire_l60_wht_surefire_blk
+class gm_surefire_l60_wht_hoseclamp_blk
 //Ammo
 gm_1Rnd_265mm_flare_single_wht_gc
 gm_1Rnd_265mm_flare_single_wht_DM15
@@ -178,5 +170,6 @@ gm_1Rnd_122x447mm_illum_s463
 gm_3Rnd_122x447mm_illum_s463
 gm_9Rnd_122x447mm_illum_s463
 gm_28Rnd_122x447mm_illum_s463
+// COMPATS
 ace_compat_gm_1Rnd_120mm_illum_dm26
 ace_compat_gm_1Rnd_120mm_illum_s843
