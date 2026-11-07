@@ -11,6 +11,7 @@ class CfgPatches
 		requiredVersion=1;
 		requiredAddons[]=
 		{};
+		skipWhenMissingDependencies = 1; // bool; 1, yes; 0, no
 	};
 };
 
